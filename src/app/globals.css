@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  /* Forma Pasta brand palette */
+  --color-background: #f7f2e8;
+  --color-foreground: #1f1a14;
+  --color-primary: #c4622d;
+  --color-secondary: #4a5a3a;
+  --color-accent: #e8d5b0;
+  --color-muted: #8a7d6b;
+  --color-card: #faf6ef;
+  --color-border: #ddd0b8;
+}
+
+@theme inline {
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --color-brand-primary: var(--color-primary);
+  --color-brand-secondary: var(--color-secondary);
+  --color-brand-accent: var(--color-accent);
+  --color-brand-muted: var(--color-muted);
+  --color-brand-card: var(--color-card);
+  --color-brand-border: var(--color-border);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-body), Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display), 'Cormorant Garamond', serif;
+}
+
+/* Focus ring visibility for accessibility */
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
