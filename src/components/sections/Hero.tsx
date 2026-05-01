@@ -6,61 +6,61 @@ import CTAButton from '@/components/ui/CTAButton'
 
 export default function Hero() {
   return (
-    <section className="relative h-screen min-h-[600px] max-h-[900px] flex items-center justify-center overflow-hidden">
-      {/* Background image */}
-      <Image
-        src="/images/hero/hero-1.jpg"
-        alt="Fresh pasta being hand-rolled on a flour-dusted surface"
-        fill
-        priority
-        sizes="100vw"
-        className="object-cover"
-      />
-
-      {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
-
+    <section className="relative min-h-[600px] h-screen max-h-[900px] flex items-center justify-center overflow-hidden bg-[var(--color-navy)]">
       {/* Content */}
-      <div className="relative z-10 text-center text-white px-4 max-w-3xl mx-auto">
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.2 }}
-          className="font-body text-xs md:text-sm tracking-[0.3em] uppercase text-white/70 mb-4"
-        >
-          Sewickley, PA
-        </motion.p>
+      <div className="relative z-10 flex flex-col items-center text-center px-4 max-w-2xl mx-auto">
 
-        <motion.h1
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="font-display font-semibold text-5xl md:text-7xl italic leading-tight mb-6"
-        >
-          Fresh pasta.
-          <br />
-          <span className="text-[var(--color-primary)]">Handmade</span> in Sewickley.
-        </motion.h1>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.6 }}
-          className="font-body text-base md:text-lg text-white/80 mb-8 max-w-md mx-auto leading-relaxed"
-        >
-          Every pasta shape, every sauce made from scratch in our kitchen before the doors open.
-        </motion.p>
-
+        {/* Logo */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, ease: 'easeOut' }}
+          className="rounded-2xl overflow-hidden ring-1 ring-white/10"
+        >
+          <Image
+            src="/images/hero/forma-logo.png"
+            alt="Forma Pasta"
+            width={900}
+            height={300}
+            priority
+            className="w-[260px] md:w-[400px] h-auto"
+          />
+        </motion.div>
+
+        {/* Red rule */}
+        <motion.div
+          initial={{ scaleX: 0 }}
+          animate={{ scaleX: 1 }}
+          transition={{ duration: 0.4, delay: 0.3, ease: 'easeOut' }}
+          style={{ originX: '50%' }}
+          className="h-1 w-16 bg-[var(--color-primary)] mt-8 mb-6"
+        />
+
+        {/* Tagline */}
+        <motion.p
+          initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.8 }}
+          transition={{ duration: 0.5, delay: 0.5 }}
+          className="font-body font-bold text-white text-lg md:text-xl tracking-tight uppercase mb-8"
+        >
+          Fresh pasta. Handmade in Sewickley.
+        </motion.p>
+
+        {/* CTAs */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.7 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <CTAButton href="/menu" variant="primary">
             View the Menu
           </CTAButton>
-          <CTAButton href="/classes" variant="secondary">
+          <CTAButton
+            href="/classes"
+            variant="secondary"
+            className="border-white text-white hover:bg-white hover:text-[var(--color-navy)]"
+          >
             Book a Pasta Class
           </CTAButton>
         </motion.div>
@@ -69,7 +69,7 @@ export default function Hero() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.7, delay: 1.1 }}
+          transition={{ duration: 0.4, delay: 0.9 }}
           className="mt-10 inline-flex items-center gap-2 border border-white/30 rounded-full px-4 py-2"
         >
           <span className="w-2 h-2 rounded-full bg-[var(--color-primary)]" aria-hidden="true" />
@@ -83,16 +83,16 @@ export default function Hero() {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 1.5, duration: 0.7 }}
+        transition={{ delay: 1.4, duration: 0.4 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2"
         aria-hidden="true"
       >
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 1.8, ease: 'easeInOut' }}
-          className="w-5 h-8 border-2 border-white/40 rounded-full flex justify-center pt-1.5"
+          className="w-5 h-8 border-2 border-[var(--color-primary)]/60 rounded-full flex justify-center pt-1.5"
         >
-          <div className="w-1 h-2 bg-white/60 rounded-full" />
+          <div className="w-1 h-2 bg-[var(--color-primary)]/80 rounded-full" />
         </motion.div>
       </motion.div>
     </section>

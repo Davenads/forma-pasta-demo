@@ -16,7 +16,7 @@ const cormorantGaramond = Cormorant_Garamond({
 const inter = Inter({
   variable: '--font-body',
   subsets: ['latin'],
-  weight: ['300', '400', '500', '600'],
+  weight: ['300', '400', '500', '600', '700'],
 })
 
 export const metadata: Metadata = {

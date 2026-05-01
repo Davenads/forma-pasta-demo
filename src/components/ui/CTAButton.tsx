@@ -31,7 +31,7 @@ const base =
 
 const variantClasses = {
   primary:
-    'bg-[var(--color-primary)] text-white hover:bg-[#b05525] active:bg-[#9a4a20] disabled:opacity-50 disabled:cursor-not-allowed',
+    'bg-[var(--color-primary)] text-white hover:bg-[#a81818] active:bg-[#8a1515] disabled:opacity-50 disabled:cursor-not-allowed',
   secondary:
     'bg-transparent border-2 border-[var(--color-primary)] text-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-white disabled:opacity-50',
   ghost:

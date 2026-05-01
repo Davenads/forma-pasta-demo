@@ -4,12 +4,13 @@
   /* Forma Pasta brand palette */
   --color-background: #f7f2e8;
   --color-foreground: #1f1a14;
-  --color-primary: #c4622d;
+  --color-primary: #cc1e1e;
   --color-secondary: #4a5a3a;
   --color-accent: #e8d5b0;
   --color-muted: #8a7d6b;
   --color-card: #faf6ef;
   --color-border: #ddd0b8;
+  --color-navy: #0f1f3d;
 }
 
 @theme inline {
@@ -21,6 +22,7 @@
   --color-brand-muted: var(--color-muted);
   --color-brand-card: var(--color-card);
   --color-brand-border: var(--color-border);
+  --color-brand-navy: var(--color-navy);
   --font-display: var(--font-display);
   --font-body: var(--font-body);
 }
