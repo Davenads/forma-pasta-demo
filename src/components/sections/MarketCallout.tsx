@@ -16,7 +16,7 @@ export default function MarketCallout() {
           <SectionReveal direction="right">
             <div className="relative aspect-square rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1516100882582-96c3a05fe590?w=800&q=80"
+                src="/images/food/food-6.jpg"
                 alt="Fresh pasta and house-made sauces available at the market counter"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"

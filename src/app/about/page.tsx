@@ -16,7 +16,7 @@ export default function AboutPage() {
       {/* Hero */}
       <div className="relative h-72 md:h-[450px] flex items-end overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1549888834-3ec93abae044?w=1920&q=80"
+          src="/images/hero/hero-2.jpg"
           alt="Pasta kitchen — fresh dough being worked on a wooden board"
           fill
           priority
@@ -113,19 +113,19 @@ export default function AboutPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               {[
                 {
-                  src: 'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=600&q=80',
+                  src: '/images/food/food-7.png',
                   alt: 'Fresh pasta dough ball on a wooden board',
                 },
                 {
-                  src: 'https://images.unsplash.com/photo-1598866594230-a7c12756260f?w=600&q=80',
+                  src: '/images/food/food-8.jpg',
                   alt: 'Hand-rolling fresh tagliatelle',
                 },
                 {
-                  src: 'https://images.unsplash.com/photo-1614777735417-4d3db64a41a0?w=600&q=80',
+                  src: '/images/food/food-9.png',
                   alt: 'Pasta class in the Forma kitchen',
                 },
                 {
-                  src: 'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&q=80',
+                  src: '/images/hero/hero-3.jpg',
                   alt: 'Plated pasta dish at Forma Pasta',
                 },
               ].map((photo) => (

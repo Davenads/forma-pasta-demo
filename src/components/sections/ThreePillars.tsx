@@ -9,7 +9,7 @@ const pillars = [
     description:
       'Breakfast, lunch, and weekend brunch built around fresh pasta. Seasonal specials, house-baked items, and a menu that changes with what\'s coming out of the kitchen.',
     cta: { label: 'See the Menu', href: '/menu' },
-    image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80',
+    image: '/images/food/food-2.jpg',
     imageAlt: 'Rustic pasta dish plated in a warm restaurant setting',
   },
   {
@@ -18,7 +18,7 @@ const pillars = [
     description:
       'Learn to make fresh pasta from scratch — dough, shape, and sauce. Perfect for date nights, birthdays, and team events. You take home what you make.',
     cta: { label: 'Book a Class', href: '/classes' },
-    image: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80',
+    image: '/images/misc/classes-3.jpg',
     imageAlt: 'Hands working pasta dough on a floured surface in a cooking class',
   },
   {
@@ -27,7 +27,7 @@ const pillars = [
     description:
       'Take the kitchen home. Fresh pasta varieties, house-made sauces, and seasonal market items available during cafe hours. Call ahead to reserve.',
     cta: { label: 'Shop the Market', href: '/market' },
-    image: 'https://images.unsplash.com/photo-1474679902186-55ed43c66cca?w=800&q=80',
+    image: '/images/food/food-5.jpg',
     imageAlt: 'Jars of artisan pasta sauces and fresh pasta packages at a market counter',
   },
 ]

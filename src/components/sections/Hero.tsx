@@ -9,7 +9,7 @@ export default function Hero() {
     <section className="relative h-screen min-h-[600px] max-h-[900px] flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <Image
-        src="https://images.unsplash.com/photo-1598866594230-a7c12756260f?w=1920&q=80"
+        src="/images/hero/hero-1.jpg"
         alt="Fresh pasta being hand-rolled on a flour-dusted surface"
         fill
         priority

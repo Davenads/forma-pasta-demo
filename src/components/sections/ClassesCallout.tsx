@@ -7,7 +7,7 @@ export default function ClassesCallout() {
     <section className="relative py-24 md:py-36 overflow-hidden">
       {/* Background */}
       <Image
-        src="https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1920&q=80"
+        src="/images/misc/classes-1.png"
         alt="Pasta class in session — hands pressing pasta dough"
         fill
         sizes="100vw"

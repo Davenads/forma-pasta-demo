@@ -6,37 +6,37 @@ import { CONTACT } from '@/lib/constants'
 const instagramPosts = [
   {
     id: '1',
-    image: 'https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=400&q=80',
+    image: '/images/food/food-1.jpg',
     alt: 'Hand-rolled fresh tagliatelle on a floured board',
     caption: 'Fresh tagliatelle, made this morning.',
   },
   {
     id: '2',
-    image: 'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=400&q=80',
+    image: '/images/food/food-2.jpg',
     alt: 'Pasta aglio e olio with fresh herbs',
     caption: 'Simple. Perfect.',
   },
   {
     id: '3',
-    image: 'https://images.unsplash.com/photo-1587740908075-9e245070dfaa?w=400&q=80',
+    image: '/images/food/food-3.jpg',
     alt: 'Closeup of fresh pasta dough being shaped',
     caption: 'Orecchiette day.',
   },
   {
     id: '4',
-    image: 'https://images.unsplash.com/photo-1614777735417-4d3db64a41a0?w=400&q=80',
+    image: '/images/food/food-4.jpg',
     alt: 'Pasta class participants making fresh pasta',
     caption: 'Saturday class crew. 🍝',
   },
   {
     id: '5',
-    image: 'https://images.unsplash.com/photo-1642059350839-e481484e5588?w=400&q=80',
+    image: '/images/food/food-5.jpg',
     alt: 'Jars of house-made pasta sauces at the market',
     caption: 'Take some home.',
   },
   {
     id: '6',
-    image: 'https://images.unsplash.com/photo-1611270629569-8b357cb88da9?w=400&q=80',
+    image: '/images/food/food-6.jpg',
     alt: 'Rustic pasta dish plated with herbs and parmesan',
     caption: 'Friday dinner is ready.',
   },

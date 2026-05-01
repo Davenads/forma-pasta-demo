@@ -7,7 +7,7 @@ const thisWeeksPasta = {
   description:
     'Bronze-die rigatoni tossed with roasted eggplant, San Marzano tomato, fresh basil, and house-made ricotta salata. A Sicilian classic — in the shop now.',
   pairing: 'Pairs beautifully with a light Sicilian red.',
-  image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=1200&q=80',
+  image: '/images/food/food-3.jpg',
   imageAlt: 'Rigatoni alla Norma with eggplant and ricotta salata in a rustic bowl',
 }
 

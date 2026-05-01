@@ -172,7 +172,7 @@ export default function MenuPage() {
       {/* Hero */}
       <div className="relative h-72 md:h-96 flex items-end overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&q=80"
+          src="/images/food/food-1.jpg"
           alt="Rustic pasta dish on a warm restaurant table"
           fill
           priority

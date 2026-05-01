@@ -26,7 +26,7 @@ export default function ClassesPage() {
       {/* Hero */}
       <div className="relative h-80 md:h-[500px] flex items-end overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1920&q=80"
+          src="/images/misc/classes-2.jpg"
           alt="Hands pressing fresh pasta dough in a pasta class"
           fill
           priority
@@ -91,7 +91,7 @@ export default function ClassesPage() {
               <div className="relative">
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                   <Image
-                    src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80"
+                    src="/images/misc/classes-3.jpg"
                     alt="Close-up of hands working pasta dough during a class"
                     fill
                     sizes="(max-width: 1024px) 100vw, 50vw"

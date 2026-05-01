@@ -16,7 +16,7 @@ export default function MarketPage() {
       {/* Hero */}
       <div className="relative h-72 md:h-96 flex items-end overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1474679902186-55ed43c66cca?w=1920&q=80"
+          src="/images/food/food-4.jpg"
           alt="Fresh pasta and market items at the Forma Pasta counter"
           fill
           priority
