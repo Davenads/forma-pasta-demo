@@ -60,10 +60,10 @@ export default function ClassesPage() {
                 </h2>
                 <div className="flex flex-col gap-4 text-[var(--color-muted)] font-body text-sm leading-relaxed">
                   <p>
-                    Every class starts with dough. You learn to feel when it&apos;s right — and why it matters. Then you shape, cut, or fill, depending on the class.
+                    Every class starts with dough. You learn to feel when it&apos;s right and why it matters. Then you shape, cut, or fill, depending on the class.
                   </p>
                   <p>
-                    We cook what you made. You sit down and eat it — bring a bottle of wine, invite someone you like, and take your time.
+                    We cook what you made. You sit down and eat it. Bring a bottle of wine, invite someone you like, and take your time.
                   </p>
                   <p>
                     You leave with a recipe card and a portion of fresh pasta to make at home. No experience necessary. We teach from scratch.
@@ -117,7 +117,7 @@ export default function ClassesPage() {
                 Class options
               </p>
               <h2 className="font-display text-3xl md:text-4xl italic font-semibold text-[var(--color-foreground)]">
-                Choose your experience
+                Pick your class
               </h2>
             </div>
           </SectionReveal>
@@ -155,12 +155,12 @@ export default function ClassesPage() {
                 Policies & good-to-knows
               </h3>
               <ul className="font-body text-sm text-[var(--color-accent)]/80 leading-relaxed flex flex-col gap-2">
-                <li>— Booking requires a deposit; balance due on the day of class</li>
-                <li>— Cancellations accepted up to 72 hours in advance for a full refund</li>
-                <li>— BYOB is enthusiastically encouraged — no corkage fee</li>
-                <li>— We accommodate dietary restrictions; please note in your inquiry</li>
-                <li>— Minimum 2 guests per booking; private events may have custom minimums</li>
-                <li>— All classes held at Forma Pasta, 531 Beaver Street, Sewickley</li>
+                <li>Booking requires a deposit; balance due on the day of class</li>
+                <li>Cancellations accepted up to 72 hours in advance for a full refund</li>
+                <li>BYOB is enthusiastically encouraged. No corkage fee.</li>
+                <li>We accommodate dietary restrictions; please note in your inquiry</li>
+                <li>Minimum 2 guests per booking; private events may have custom minimums</li>
+                <li>All classes held at Forma Pasta, 531 Beaver Street, Sewickley</li>
               </ul>
             </div>
           </SectionReveal>

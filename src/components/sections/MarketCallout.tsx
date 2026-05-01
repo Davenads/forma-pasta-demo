@@ -36,7 +36,7 @@ export default function MarketCallout() {
                 Take the kitchen home
               </h2>
               <p className="font-body text-base text-[var(--color-muted)] leading-relaxed mb-6">
-                Fresh pasta varieties and house-made sauces are available during all cafe hours. Pick up the same pasta we serve at dinner — made that morning.
+                Fresh pasta varieties and house-made sauces are available during all cafe hours. Pick up the same pasta we serve at dinner, made that morning.
               </p>
 
               {/* Item grid */}
@@ -55,7 +55,7 @@ export default function MarketCallout() {
               </div>
 
               <p className="font-body text-sm text-[var(--color-muted)] italic mb-8">
-                Call ahead to reserve — popular items sell out early on weekends.
+                Call ahead to reserve. Popular items sell out early on weekends.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">

@@ -50,11 +50,11 @@ export default function AboutPage() {
               </p>
 
               <p>
-                Every shape, every sauce, every jar in the market case — made in our kitchen at 531 Beaver Street in Sewickley. Not a central commissary, not a distributor. This kitchen. That morning.
+                Every shape, every sauce, every jar in the market case is made in our kitchen at 531 Beaver Street in Sewickley. Not a central commissary, not a distributor. This kitchen. That morning.
               </p>
 
               <p>
-                We are a small place on purpose. The dining room holds a few tables. The menu is focused. The pasta-making classes happen in the same space where we cook every day — because we wanted the experience to feel real, not theatrical.
+                We are a small place on purpose. The dining room holds a few tables. The menu is focused. The pasta-making classes happen in the same space where we cook every day, because we wanted it to feel real, not theatrical.
               </p>
 
               <p>
@@ -80,7 +80,7 @@ export default function AboutPage() {
             {[
               {
                 title: 'Fresh is not a marketing term',
-                body: 'Every pasta shape you eat here or take home was made this morning. Not yesterday. Not from frozen. The difference is in the texture and the taste — you notice it immediately.',
+                body: 'Every pasta shape you eat here or take home was made this morning. Not yesterday. Not from frozen. The difference is in the texture and the taste. You notice it immediately.',
               },
               {
                 title: 'Simple done well beats complex done sloppily',

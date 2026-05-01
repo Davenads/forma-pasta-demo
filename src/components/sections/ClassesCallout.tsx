@@ -25,7 +25,7 @@ export default function ClassesCallout() {
               Learn to make fresh pasta from scratch
             </h2>
             <p className="font-body text-base text-white/75 leading-relaxed mb-8">
-              Hands-on classes for couples, friends, and private groups. You learn the dough, the shapes, and the sauces — then sit down to eat what you made. BYOB encouraged.
+              Hands-on classes for couples, friends, and private groups. You learn the dough, the shapes, and the sauces. Then you sit down to eat what you made. BYOB encouraged.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <CTAButton href="/classes" variant="primary">

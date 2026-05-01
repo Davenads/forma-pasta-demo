@@ -41,10 +41,10 @@ export default function MarketPage() {
             <SectionReveal>
               <div className="md:col-span-2">
                 <p className="font-display text-2xl md:text-3xl italic font-semibold leading-snug mb-3">
-                  The same pasta we serve at dinner — available to take home.
+                  The same pasta we serve at dinner, available to take home.
                 </p>
                 <p className="font-body text-sm text-white/75 leading-relaxed">
-                  Every pasta shape and sauce is made from scratch in our kitchen. What you buy in the market is exactly what&apos;s on the dinner menu — just packaged for your table at home.
+                  Every pasta shape and sauce is made from scratch in our kitchen. What you buy in the market is exactly what&apos;s on the dinner menu, packaged for your table at home.
                 </p>
               </div>
             </SectionReveal>
@@ -55,7 +55,7 @@ export default function MarketPage() {
                 <p className="font-body text-sm text-white/80 mb-1">{HOURS_COMPACT.tueFri}</p>
                 <p className="font-body text-sm text-white/80 mb-3">{HOURS_COMPACT.satSun}</p>
                 <p className="font-body text-xs text-white/60 italic">
-                  Call ahead for weekend reservations — popular items sell out.
+                  Call ahead for weekend reservations. Popular items sell out.
                 </p>
               </div>
             </SectionReveal>

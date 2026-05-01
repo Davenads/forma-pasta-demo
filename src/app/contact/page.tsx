@@ -41,7 +41,7 @@ export default function ContactPage() {
                       {CONTACT.address}
                     </p>
                     <p className="font-body text-sm text-[var(--color-muted)] mb-3">
-                      On Beaver Street in Sewickley Village — street parking available
+                      On Beaver Street in Sewickley Village. Street parking available.
                     </p>
                     <a
                       href={`https://maps.google.com/?q=${encodeURIComponent(CONTACT.address)}`}

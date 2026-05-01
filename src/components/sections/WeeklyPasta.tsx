@@ -5,7 +5,7 @@ import CTAButton from '@/components/ui/CTAButton'
 const thisWeeksPasta = {
   name: 'Rigatoni alla Norma',
   description:
-    'Bronze-die rigatoni tossed with roasted eggplant, San Marzano tomato, fresh basil, and house-made ricotta salata. A Sicilian classic — in the shop now.',
+    'Bronze-die rigatoni tossed with roasted eggplant, San Marzano tomato, fresh basil, and house-made ricotta salata. A Sicilian classic, in the shop now.',
   pairing: 'Pairs beautifully with a light Sicilian red.',
   image: '/images/food/food-3.jpg',
   imageAlt: 'Rigatoni alla Norma with eggplant and ricotta salata in a rustic bowl',

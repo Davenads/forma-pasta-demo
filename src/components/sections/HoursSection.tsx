@@ -47,7 +47,7 @@ export default function HoursSection() {
               </div>
 
               <p className="font-body text-xs text-[var(--color-muted)] mt-6">
-                Hours may vary on holidays — call ahead or check Instagram.
+                Hours may vary on holidays. Call ahead or check Instagram.
               </p>
             </div>
           </SectionReveal>

@@ -16,7 +16,7 @@ const pillars = [
     title: 'Classes',
     subtitle: 'Private, couples, and group sessions',
     description:
-      'Learn to make fresh pasta from scratch — dough, shape, and sauce. Perfect for date nights, birthdays, and team events. You take home what you make.',
+      'Learn to make fresh pasta from scratch: dough, shape, and sauce. Good for date nights, birthdays, and team events. You take home what you make.',
     cta: { label: 'Book a Class', href: '/classes' },
     image: '/images/misc/classes-3.jpg',
     imageAlt: 'Hands working pasta dough on a floured surface in a cooking class',

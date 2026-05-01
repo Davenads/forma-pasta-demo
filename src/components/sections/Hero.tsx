@@ -48,7 +48,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.6 }}
           className="font-body text-base md:text-lg text-white/80 mb-8 max-w-md mx-auto leading-relaxed"
         >
-          Every pasta shape, every sauce — made from scratch in our kitchen before the doors open.
+          Every pasta shape, every sauce made from scratch in our kitchen before the doors open.
         </motion.p>
 
         <motion.div
@@ -74,7 +74,7 @@ export default function Hero() {
         >
           <span className="w-2 h-2 rounded-full bg-[var(--color-primary)]" aria-hidden="true" />
           <span className="font-body text-xs text-white/80 tracking-wide">
-            BYOB welcome — bring your favorite bottle
+            BYOB welcome. Bring your favorite bottle.
           </span>
         </motion.div>
       </div>

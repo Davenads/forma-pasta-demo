@@ -33,7 +33,7 @@ const breakfastLunchItems = [
   },
   {
     name: 'Cafe Sandwich',
-    description: 'Rotating daily — house-made focaccia, market ingredients, ask your server',
+    description: 'Rotating daily. House-made focaccia, market ingredients. Ask your server.',
     price: '$13',
   },
   {
@@ -80,7 +80,7 @@ const dinnerItems = [
   {
     name: 'Rigatoni alla Norma',
     description:
-      'Roasted eggplant, San Marzano tomato, fresh basil, house ricotta salata — our signature',
+      'Roasted eggplant, San Marzano tomato, fresh basil, house ricotta salata. Our most-ordered dish.',
     price: '$24',
   },
   {
@@ -100,7 +100,7 @@ const dinnerItems = [
   },
   {
     name: 'Pasta di Stagione',
-    description: 'Chef\'s seasonal pasta — ask your server for tonight\'s preparation',
+    description: 'Chef\'s seasonal pasta. Ask your server for tonight\'s preparation.',
     price: 'Market',
   },
   {
@@ -207,7 +207,7 @@ export default function MenuPage() {
               <div className="flex-1 bg-[var(--color-primary)] rounded-lg p-5 text-center text-white">
                 <p className="font-display text-lg italic mb-1">BYOB welcome</p>
                 <p className="font-body text-xs text-white/70">
-                  Bring your favorite bottle — we&apos;ll provide the glasses
+                  Bring your favorite bottle and we&apos;ll provide the glasses
                 </p>
               </div>
               <div className="flex-1 bg-[var(--color-card)] border border-[var(--color-border)] rounded-lg p-5 text-center">
@@ -241,9 +241,9 @@ export default function MenuPage() {
 
           <MenuSection
             title="Dinner"
-            subtitle="Friday & Saturday, 5–9pm — Reservations recommended"
+            subtitle="Friday & Saturday, 5–9pm. Reservations recommended."
             items={dinnerItems}
-            note="Dinner is where we go deepest. BYOB welcome — no corkage fee."
+            note="Dinner is where we go deepest. BYOB welcome, no corkage fee."
           />
 
           {/* CTAs */}

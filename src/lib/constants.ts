@@ -32,7 +32,7 @@ export const NAV_LINKS = [
   { label: 'Contact', href: '/contact' },
 ]
 
-export const BYOB_NOTE = 'BYOB welcome — bring your favorite bottle, we\'ll provide the glasses.'
+export const BYOB_NOTE = 'BYOB welcome. Bring your favorite bottle and we\'ll provide the glasses.'
 
 export const TOAST_ORDER_URL = 'https://www.toasttab.com/forma-pasta'
 export const OPENTABLE_URL = 'https://www.opentable.com/forma-pasta-sewickley'
@@ -49,19 +49,19 @@ export const TESTIMONIALS = [
   },
   {
     quote:
-      'Took a pasta class with my husband for our anniversary — we\'ve made fresh pasta at home ever since. Incredible experience.',
+      'Took a pasta class with my husband for our anniversary. We\'ve made fresh pasta at home ever since. Worth every penny.',
     author: 'Jennifer K.',
     source: 'Google',
   },
   {
     quote:
-      'The market sauces are outstanding. I always grab a few jars on my way out. The rigatoni alla norma is a staple in our house now.',
+      'The market sauces are the real deal. I always grab a few jars on my way out. The rigatoni alla norma is a staple in our house now.',
     author: 'Michael R.',
     source: 'Yelp',
   },
   {
     quote:
-      'BYOB and housemade pasta? Friday dinner here is our go-to date night. Book ahead — it fills fast.',
+      'BYOB and housemade pasta? Friday dinner here is our go-to date night. Book ahead. It fills fast.',
     author: 'Amanda T.',
     source: 'Google',
   },
@@ -79,7 +79,7 @@ export const PASTA_CLASS_TYPES = [
   {
     name: 'Filled Pasta Workshop',
     description:
-      'Dive into ravioli and tortellini — the art of filling, folding, and finishing. Includes a classic butter-sage sauce and dinner portion to enjoy.',
+      'Ravioli and tortellini: the art of filling, folding, and finishing. Includes a classic butter-sage sauce and a dinner portion to enjoy.',
     duration: '3 hours',
     groupSize: '2–6 guests',
     price: '$115 per person',
