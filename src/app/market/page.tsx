@@ -5,9 +5,9 @@ import CTAButton from '@/components/ui/CTAButton'
 import { MARKET_ITEMS, CONTACT, HOURS_COMPACT } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Market — Forma Pasta Cafe & Market',
+  title: 'Italian Market',
   description:
-    'Fresh pasta and house-made sauces available to take home. Pickup during cafe hours. Call ahead to reserve.',
+    'Specialty Italian ingredients and artisan goods at Forma Pasta in Sewickley. Fresh pasta, house-made sauces, and market extras to take home.',
 }
 
 export default function MarketPage() {

@@ -5,9 +5,9 @@ import CTAButton from '@/components/ui/CTAButton'
 import { BYOB_NOTE, TOAST_ORDER_URL, OPENTABLE_URL } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Menu — Forma Pasta Cafe & Market',
+  title: 'Menu',
   description:
-    'Breakfast, lunch, brunch, and dinner menus. All pasta made fresh in-house daily. BYOB welcome.',
+    'Fresh pasta menu with seasonal dishes served at 531 Beaver Street, Sewickley. Breakfast, lunch, brunch, and dinner. All pasta made in-house daily. BYOB welcome.',
 }
 
 const breakfastLunchItems = [

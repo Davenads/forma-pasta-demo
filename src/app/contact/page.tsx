@@ -5,9 +5,9 @@ import ContactForm from '@/components/sections/ContactForm'
 import { CONTACT, HOURS, OPENTABLE_URL, BYOB_NOTE } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Contact & Find Us — Forma Pasta Cafe & Market',
+  title: 'Contact & Hours',
   description:
-    'Find Forma Pasta at 531 Beaver Street, Sewickley, PA. Get directions, hours, and contact information.',
+    'Find Forma Pasta at 531 Beaver Street in Sewickley, PA. Hours, directions, and contact information.',
 }
 
 export default function ContactPage() {

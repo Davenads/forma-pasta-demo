@@ -5,9 +5,9 @@ import CTAButton from '@/components/ui/CTAButton'
 import { CONTACT } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'About — Forma Pasta Cafe & Market',
+  title: 'About',
   description:
-    'The story behind Forma Pasta in Sewickley, PA. Artisan fresh pasta made from scratch every morning.',
+    "The story behind Forma Pasta — fresh pasta made from scratch every morning at 531 Beaver Street in Sewickley, PA.",
 }
 
 export default function AboutPage() {

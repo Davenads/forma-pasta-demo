@@ -6,9 +6,9 @@ import TestimonialCarousel from '@/components/ui/TestimonialCarousel'
 import { PASTA_CLASS_TYPES } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Pasta Classes — Forma Pasta Cafe & Market',
+  title: 'Pasta Classes',
   description:
-    'Learn to make fresh pasta from scratch in Sewickley, PA. Hands-on classes for couples, groups, and private events. Book your pasta class today.',
+    'Hands-on pasta making classes in Sewickley, PA. Learn to make fresh pasta from scratch for date nights, groups, and private events. BYOB encouraged — book ahead.',
 }
 
 const occasions = [
