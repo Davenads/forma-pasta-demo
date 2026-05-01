@@ -110,6 +110,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${cormorantGaramond.variable} ${inter.variable} h-full`}
+      suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-[var(--color-background)] text-[var(--color-foreground)]">
         <JsonLd data={schemaData} />
