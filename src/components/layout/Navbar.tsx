@@ -82,7 +82,7 @@ export default function Navbar() {
             href={TOAST_ORDER_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[var(--color-primary)] text-white font-body text-sm px-5 py-2 rounded hover:bg-[#b05525] transition-colors"
+            className="bg-[var(--color-primary)] text-white font-body text-sm px-5 py-2 rounded hover:bg-[#a81818] transition-colors"
           >
             Order Online
           </a>
@@ -144,7 +144,7 @@ export default function Navbar() {
             href={TOAST_ORDER_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[var(--color-primary)] text-white font-body text-sm text-center px-5 py-3 rounded hover:bg-[#b05525] transition-colors mt-2"
+            className="bg-[var(--color-primary)] text-white font-body text-sm text-center px-5 py-3 rounded hover:bg-[#a81818] transition-colors mt-2"
           >
             Order Online
           </a>

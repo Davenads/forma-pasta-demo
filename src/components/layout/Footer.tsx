@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { CONTACT, HOURS_COMPACT, NAV_LINKS, SITE_NAME, BYOB_NOTE, TOAST_ORDER_URL, OPENTABLE_URL } from '@/lib/constants'
 
 export default function Footer() {
@@ -10,13 +11,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="mb-4">
-              <span className="font-display font-semibold text-2xl italic text-[var(--color-primary)]">
-                Forma
-              </span>
-              <p className="font-body text-xs tracking-[0.2em] uppercase text-[var(--color-accent)]/60 mt-0.5">
-                Pasta · Cafe · Market
-              </p>
+            <div className="mb-4 mix-blend-screen">
+              <Image
+                src="/images/hero/forma-logo.png"
+                alt="Forma Pasta"
+                width={900}
+                height={300}
+                className="w-[160px] h-auto"
+              />
             </div>
             <p className="font-body text-sm text-[var(--color-accent)]/70 leading-relaxed mb-4">
               {BYOB_NOTE}
