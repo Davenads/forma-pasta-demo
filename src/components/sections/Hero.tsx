@@ -7,6 +7,18 @@ import CTAButton from '@/components/ui/CTAButton'
 export default function Hero() {
   return (
     <section className="relative min-h-[600px] h-screen max-h-[900px] flex items-center justify-center overflow-hidden bg-[var(--color-navy)]">
+      {/* Background image */}
+      <Image
+        src="/images/hero/hero-1.jpg"
+        alt=""
+        fill
+        priority
+        className="object-cover object-center"
+        aria-hidden="true"
+      />
+      {/* Navy overlay */}
+      <div className="absolute inset-0 bg-[var(--color-navy)]/72 z-[1]" aria-hidden="true" />
+
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center text-center px-4 max-w-2xl mx-auto">
 
