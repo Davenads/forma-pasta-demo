@@ -26,14 +26,14 @@ export default function ClassesPage() {
       {/* Hero */}
       <div className="relative h-80 md:h-[500px] flex items-end overflow-hidden">
         <Image
-          src="/images/misc/classes-2.jpg"
-          alt="Hands pressing fresh pasta dough in a pasta class"
+          src="/images/misc/classes-1.png"
+          alt="Pasta class setup with fresh dough wells on a butcher block table at Forma Pasta"
           fill
           priority
           sizes="100vw"
-          className="object-cover"
+          className="object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/20" />
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
           <p className="font-body text-xs tracking-[0.25em] uppercase text-[var(--color-primary)] mb-2">
             Hands-on classes
