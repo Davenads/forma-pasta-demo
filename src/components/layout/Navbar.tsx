@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { NAV_LINKS, SITE_NAME, TOAST_ORDER_URL } from '@/lib/constants'
+import { NAV_LINKS, SITE_NAME } from '@/lib/constants'
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -78,14 +78,12 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <a
-            href={TOAST_ORDER_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/order"
             className="bg-[var(--color-primary)] text-white font-body text-sm px-5 py-2 rounded hover:bg-[#a81818] transition-colors"
           >
             Order Online
-          </a>
+          </Link>
         </div>
 
         {/* Mobile hamburger */}
@@ -140,14 +138,12 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <a
-            href={TOAST_ORDER_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/order"
             className="bg-[var(--color-primary)] text-white font-body text-sm text-center px-5 py-3 rounded hover:bg-[#a81818] transition-colors mt-2"
           >
             Order Online
-          </a>
+          </Link>
         </div>
       </div>
     </header>
