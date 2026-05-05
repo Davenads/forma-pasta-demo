@@ -40,6 +40,11 @@ export interface MenuItem {
   price?: string
 }
 
+export interface MenuSection {
+  title: string
+  items: MenuItem[]
+}
+
 export interface ContactFormData {
   name: string
   email: string
