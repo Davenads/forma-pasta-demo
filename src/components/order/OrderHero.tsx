@@ -25,7 +25,7 @@ function getServiceWindow(): ServiceWindow {
 const HEADING: Record<ServiceWindow, string> = {
   lunch:  'Lunch is open',
   dinner: 'Dinner service is open',
-  closed: 'Currently closed — browse the menu',
+  closed: 'Currently closed. Browse the menu.',
 }
 
 const SUBHEADING: Record<ServiceWindow, string> = {

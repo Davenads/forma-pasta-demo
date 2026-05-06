@@ -293,7 +293,7 @@ export const MENU_ITEMS: MenuItem[] = [
   {
     id: 'dessert-rotating',
     name: 'Dessert of the Day',
-    description: "Ask your server about today's rotating selection — pies, cakes, and seasonal sweets.",
+    description: "Ask your server about today's rotating selection: pies, cakes, and seasonal sweets.",
     price: 7.95,
     category: 'desserts',
     availability: 'dinner',

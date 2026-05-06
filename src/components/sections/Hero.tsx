@@ -17,7 +17,7 @@ export default function Hero() {
         aria-hidden="true"
       />
       {/* Navy overlay */}
-      <div className="absolute inset-0 bg-[var(--color-navy)]/72 z-[1]" aria-hidden="true" />
+      <div className="absolute inset-0 bg-black/72 z-[1]" aria-hidden="true" />
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center text-center px-4 max-w-2xl mx-auto">
@@ -102,9 +102,9 @@ export default function Hero() {
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 1.8, ease: 'easeInOut' }}
-          className="w-5 h-8 border-2 border-[var(--color-primary)]/60 rounded-full flex justify-center pt-1.5"
+          className="w-5 h-8 border-2 border-white/60 rounded-full flex justify-center pt-1.5"
         >
-          <div className="w-1 h-2 bg-[var(--color-primary)]/80 rounded-full" />
+          <div className="w-1 h-2 bg-white/80 rounded-full" />
         </motion.div>
       </motion.div>
     </section>

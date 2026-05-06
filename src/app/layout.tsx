@@ -45,7 +45,7 @@ export const metadata: Metadata = {
         url: '/images/hero/hero-1.jpg',
         width: 1200,
         height: 630,
-        alt: 'Forma Pasta Cafe & Market — fresh pasta in Sewickley, PA',
+        alt: 'Forma Pasta Cafe & Market, fresh pasta in Sewickley, PA',
       },
     ],
   },

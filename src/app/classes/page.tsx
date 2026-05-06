@@ -8,7 +8,7 @@ import { PASTA_CLASS_TYPES } from '@/lib/constants'
 export const metadata: Metadata = {
   title: 'Pasta Classes',
   description:
-    'Hands-on pasta making classes in Sewickley, PA. Learn to make fresh pasta from scratch for date nights, groups, and private events. BYOB encouraged — book ahead.',
+    'Hands-on pasta making classes in Sewickley, PA. Learn to make fresh pasta from scratch for date nights, groups, and private events. BYOB encouraged. Book ahead.',
 }
 
 const occasions = [

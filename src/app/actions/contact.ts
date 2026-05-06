@@ -3,8 +3,6 @@
 import { Resend } from 'resend'
 import { z } from 'zod'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
-
 const contactSchema = z.object({
   name: z.string().min(2),
   email: z.string().email(),
@@ -36,6 +34,8 @@ export async function sendContactEmail(data: ContactFormData): Promise<ActionRes
     return { success: false, error: 'Invalid form data. Please check your entries.' }
   }
 
+  const resend = new Resend(process.env.RESEND_API_KEY)
+
   try {
     await resend.emails.send({
       from: 'Forma Pasta Website <noreply@formapgh.com>',
@@ -61,6 +61,8 @@ export async function sendClassBookingEmail(data: ClassBookingFormData): Promise
   if (!parsed.success) {
     return { success: false, error: 'Invalid form data. Please check your entries.' }
   }
+
+  const resend = new Resend(process.env.RESEND_API_KEY)
 
   try {
     await resend.emails.send({

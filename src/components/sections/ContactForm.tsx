@@ -5,6 +5,7 @@ import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 import { sendContactEmail } from '@/app/actions/contact'
+import CTAButton from '@/components/ui/CTAButton'
 
 const schema = z.object({
   name: z.string().min(2, 'Please enter your name'),
@@ -150,13 +151,13 @@ export default function ContactForm() {
         </p>
       )}
 
-      <button
+      <CTAButton
         type="submit"
         disabled={status === 'loading'}
-        className="w-full bg-[var(--color-primary)] text-white font-body text-sm tracking-wide py-3.5 rounded hover:bg-[#b05525] transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
+        className="w-full"
       >
         {status === 'loading' ? 'Sending...' : 'Send message'}
-      </button>
+      </CTAButton>
     </form>
   )
 }

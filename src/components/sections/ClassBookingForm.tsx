@@ -5,6 +5,7 @@ import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 import { sendClassBookingEmail } from '@/app/actions/contact'
+import CTAButton from '@/components/ui/CTAButton'
 import { PASTA_CLASS_TYPES } from '@/lib/constants'
 
 const schema = z.object({
@@ -152,7 +153,7 @@ export default function ClassBookingForm() {
           <option value="">Select a class type...</option>
           {PASTA_CLASS_TYPES.map((c) => (
             <option key={c.name} value={c.name}>
-              {c.name} — {c.price}
+              {c.name} | {c.price}
             </option>
           ))}
         </select>
@@ -231,13 +232,13 @@ export default function ClassBookingForm() {
         </p>
       )}
 
-      <button
+      <CTAButton
         type="submit"
         disabled={status === 'loading'}
-        className="w-full bg-[var(--color-primary)] text-white font-body text-sm tracking-wide py-4 rounded hover:bg-[#b05525] transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
+        className="w-full"
       >
         {status === 'loading' ? 'Sending inquiry...' : 'Send booking inquiry'}
-      </button>
+      </CTAButton>
 
       <p className="font-body text-xs text-[var(--color-muted)] text-center">
         We&apos;ll respond within 24 hours. Or call us at{' '}
