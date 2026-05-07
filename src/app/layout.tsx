@@ -71,11 +71,17 @@ const schemaData = {
     postalCode: '15143',
     addressCountry: 'US',
   },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.6',
+    reviewCount: '124',
+  },
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: 40.5371,
-    longitude: -80.1869,
+    latitude: 40.5372,
+    longitude: -80.1784,
   },
+  hasMap: 'https://maps.google.com/?q=Forma+Pasta+Sewickley+PA',
   hasMenu: 'https://forma-pasta.vercel.app/menu',
   menu: 'https://forma-pasta.vercel.app/menu',
   openingHoursSpecification: [
@@ -113,7 +119,16 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-[var(--color-background)] text-[var(--color-foreground)]">
-        <JsonLd data={schemaData} />
+        <JsonLd data={[
+          schemaData,
+          {
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: 'Forma Pasta Cafe & Market',
+            url: 'https://forma-pasta.vercel.app',
+            description: 'Fresh pasta made from scratch daily in Sewickley, PA. Cafe, cooking classes, and an artisan Italian market on Beaver Street. BYOB welcome.',
+          },
+        ]} />
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />

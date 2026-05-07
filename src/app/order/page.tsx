@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import JsonLd from '@/components/JsonLd'
 import OrderPage from './OrderPage'
 
 export const metadata: Metadata = {
@@ -8,5 +9,17 @@ export const metadata: Metadata = {
 }
 
 export default function Page() {
-  return <OrderPage />
+  return (
+    <>
+      <JsonLd data={{
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://forma-pasta.vercel.app' },
+          { '@type': 'ListItem', position: 2, name: 'Order Online', item: 'https://forma-pasta.vercel.app/order' },
+        ],
+      }} />
+      <OrderPage />
+    </>
+  )
 }

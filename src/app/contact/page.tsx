@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import SectionReveal from '@/components/ui/SectionReveal'
 import CTAButton from '@/components/ui/CTAButton'
 import ContactForm from '@/components/sections/ContactForm'
+import JsonLd from '@/components/JsonLd'
 import { CONTACT, HOURS, OPENTABLE_URL, BYOB_NOTE } from '@/lib/constants'
 
 export const metadata: Metadata = {
@@ -13,6 +14,52 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
+      <JsonLd data={{
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://forma-pasta.vercel.app' },
+          { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://forma-pasta.vercel.app/contact' },
+        ],
+      }} />
+      <JsonLd data={{
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          {
+            '@type': 'Question',
+            name: 'Where is Forma Pasta located?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: '531 Beaver Street, Sewickley, PA 15143.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: "What are Forma Pasta's hours?",
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Tuesday through Friday 8am to 4pm (cafe and lunch), Saturday and Sunday 8am to 2pm (brunch), Friday and Saturday 5pm to 9pm (dinner). Closed Monday.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'How can I contact Forma Pasta?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Call us at (412) 586-7195 or send a message using the contact form on this page.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'Does Forma Pasta take reservations?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Yes, reservations are available online. Walk-ins are welcome based on availability.',
+            },
+          },
+        ],
+      }} />
       {/* Page header */}
       <div className="pt-32 pb-12 bg-[var(--color-foreground)]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

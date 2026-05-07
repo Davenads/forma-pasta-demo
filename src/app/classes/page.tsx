@@ -3,6 +3,7 @@ import Image from 'next/image'
 import SectionReveal from '@/components/ui/SectionReveal'
 import ClassBookingForm from '@/components/sections/ClassBookingForm'
 import TestimonialCarousel from '@/components/ui/TestimonialCarousel'
+import JsonLd from '@/components/JsonLd'
 import { PASTA_CLASS_TYPES } from '@/lib/constants'
 
 export const metadata: Metadata = {
@@ -23,6 +24,14 @@ const occasions = [
 export default function ClassesPage() {
   return (
     <>
+      <JsonLd data={{
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://forma-pasta.vercel.app' },
+          { '@type': 'ListItem', position: 2, name: 'Pasta Classes', item: 'https://forma-pasta.vercel.app/classes' },
+        ],
+      }} />
       {/* Hero */}
       <div className="relative h-80 md:h-[500px] flex items-end overflow-hidden">
         <Image

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import SectionReveal from '@/components/ui/SectionReveal'
 import CTAButton from '@/components/ui/CTAButton'
+import JsonLd from '@/components/JsonLd'
 import { MARKET_ITEMS, CONTACT, HOURS_COMPACT } from '@/lib/constants'
 
 export const metadata: Metadata = {
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
 export default function MarketPage() {
   return (
     <>
+      <JsonLd data={{
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://forma-pasta.vercel.app' },
+          { '@type': 'ListItem', position: 2, name: 'Italian Market', item: 'https://forma-pasta.vercel.app/market' },
+        ],
+      }} />
       {/* Hero */}
       <div className="relative h-72 md:h-96 flex items-end overflow-hidden">
         <Image
