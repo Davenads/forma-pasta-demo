@@ -2,9 +2,10 @@
 
 A demo website for Forma Pasta Cafe & Market, a fresh pasta restaurant, cooking school, and Italian market at 531 Beaver Street in Sewickley, PA. The site showcases all three facets of the business: a cafe serving breakfast, lunch, brunch, and Friday/Saturday dinner; hands-on pasta-making classes; and a take-home market stocked with house-made pasta shapes and sauces.
 
-## Live Demo
+## URLs
 
-https://forma-pasta.vercel.app
+- **Demo (Vercel):** https://forma-pasta.vercel.app
+- **Business Site:** https://formapgh.com
 
 ## Business Details
 
